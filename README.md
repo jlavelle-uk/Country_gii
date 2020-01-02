@@ -31,13 +31,13 @@ INSERT INTO `country` VALUES ('US','United States',322976000);
 
 Now we'll create a project:
 
-Using Terminal, create a "country_gii" directory in the "tutorial" directory and download Yii2 Basic to it:
+Using Terminal, create a "country_gii" directory in the "tutorial" directory and download Yii2 Basic to it. *Change the Paths as appropriate*:
 ```
 cd ~/www/tutorial/
 composer create-project --prefer-dist yiisoft/yii2-app-basic country_gii
 ```
 
-Create a GIT repo on github.com called: country_gii
+Create a GIT repo on github.com called: Country_gii
 
 Now initialise git on your computer (change [YOUR_GITHUB_NAME] as required):
 ```
