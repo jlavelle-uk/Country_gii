@@ -39,7 +39,7 @@ composer create-project --prefer-dist yiisoft/yii2-app-basic country_gii
 
 Create a GIT repo on github.com called: country_gii
 
-Now initialise git on your computer:
+Now initialise git on your computer (change [YOUR_GITHUB_NAME] as required):
 ```
 cd ~/www/tutorial/country_gii
 git init
