@@ -5,7 +5,7 @@ If you need to create the Country database and table the sql is here:
 
 *Create a Database:*
 ```
-CREATE DATABASE IF NOT EXISTS `country_gii`;
+CREATE SCHEMA IF NOT EXISTS `country_gii`;
 USE `country_gii`;
 ```
 
