@@ -31,11 +31,22 @@ INSERT INTO `country` VALUES ('US','United States',322976000);
 
 Now we'll create a project:
 
-### Create a "country_gii" directory in the "tutorial" directory and download Yii2 Basic to it:
+Using Terminal, create a "country_gii" directory in the "tutorial" directory and download Yii2 Basic to it:
 ```
 cd ~/www/tutorial/
 composer create-project --prefer-dist yiisoft/yii2-app-basic country_gii
 ```
 
-### Start Netbeans and create a new PHP project with existing sources using the country_gii directory
+Create a GIT repo on github.com called: country_gii
+
+Now initialise git on your computer:
+```
+cd ~/www/tutorial/country_gii
+git init
+git commit -m "first commit"
+git remote add origin git@github.com:[YOUR_GITHUB_NAME]/Country_gii.git
+git push -u origin master
+```
+
+Start Netbeans and create a new PHP project with existing sources using the country_gii directory
 
