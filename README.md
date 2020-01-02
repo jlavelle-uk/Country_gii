@@ -1,10 +1,15 @@
 # Country_gii
-Tutorial on using Yii2 with Gii - Country
+Tutorial on using Yii2 with Gii using the Country database from the previous tutorial
 
-### Create a Database called:
-`country_gii`
+If you need to create the Country database and table the sql is here:
 
-### Database Table
+*Create a Database:*
+```
+CREATE DATABASE IF NOT EXISTS `country_gii`;
+USE `country_gii`;
+```
+
+*Database Table:*
 ```
  CREATE TABLE `country` (
   `code` CHAR(2) NOT NULL PRIMARY KEY,
@@ -23,6 +28,8 @@ INSERT INTO `country` VALUES ('IN','India',1285400000);
 INSERT INTO `country` VALUES ('RU','Russia',146519759);
 INSERT INTO `country` VALUES ('US','United States',322976000);
 ```
+
+Now we'll create a project:
 
 ### Create a "country_gii" directory in the "tutorial" directory and download Yii2 Basic to it:
 ```
